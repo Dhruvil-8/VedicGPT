@@ -1,0 +1,40 @@
+--- VEDIC MODEL RESEARCH-GRADE EVALUATION REPORT ---
+Model Path: model/model_output_accented
+Dataset Evaluation: data/veda_train_accented.txt
+Device: cpu
+
+1. QUANTITATIVE ANALYSIS
+- Evaluation Loss: 6.5157
+- Perplexity (PPL): 675.6921
+
+2. LINGUISTIC AUDIT (ACCENT DENSITY)
+Metric                Ground Truth (%)    Model Generated (%)
+-----------------------------------------------------------
+Udatta Ratio (॑)      6.56%               6.62%
+Anudatta Ratio (॒)    8.69%               8.39%
+
+(Comparison Note: A difference < 1% indicates high-fidelity learning of Vedic prosody.)
+
+3. BRANCH STYLE SAMPLES
+
+--- <RIG> Samples ---
+[1] <RIG> यस्य॑ ते॒ यस्य॒ त्यर॑त॒ यस्य॒ मक्ष॑तं॒ दर्गुद॑ति । वि॒गिर्धे॒ यं व॒यं द्व॑ततिः स्व॒ञ्जे॑ ॥ <eos>
+[2] <RIG> हस्त॑ आ॒धं न मं न त्सं॑ चर्मम॒दाय॑मान् । न नि॒षं मं न दं न यो॒ न दं मं॑ मप॒न्त्यथं न ॥ <eos>
+[3] <RIG> यस्य॑ ते मर॒स्यमा॑नं॒ न यस्य॑ ते॒ यस्य॒ पश्य॒न्नस्य॑ । यद् मृ॑श॒ त्वं रपृ॑ण॒न्त्यम॑ते॒ न तु॑सा॒ न मृ॑जुः ॥ <eos>
+
+--- <YAJUR> Samples ---
+[1] <YAJUR> त॒ᳪशा॒नौ ऽघे ऽग्र॒मूर॑सि । अ॒ष्टा॒बा॒नीति॑र्मि॒त्रो । तेषा॑ हिं यो॒गूना॑य । त॒क्य॒मो॒ राय॒ स्वाहा॑ ॥ <eos>
+[2] <YAJUR> हस्ता॑ सधं च॒ दमौर॑सा स॒वाना॑ ते । स॒म्पया॒ मना॑ ॥ <eos>
+[3] <YAJUR> यस्य॑ ते॒ मन॑सो मे देव मधो॒ दं च॑ । मूर॒मिषः॑ ॥ <eos>
+
+--- <ATHARVA> Samples ---
+[1] <ATHARVA> यस्य॒ मो॑चि ॥ <eos>
+[2] <ATHARVA> स्तृ॒णुना॑ ते पि॒ता प्र॒प्रिया॒सन् चक्रो॑भिः । सि॒क्तीं रः॑ प्र॒जां सं॑चतस्य ॥ <eos>
+[3] <ATHARVA> त्वया॑ व॒यं दं॒ हि मृ॑ञ्ज॒ स्तयो॒ मन्या॑ अर॒सा । तेन॑ ते हि दय॒द्यं मू॑नाना अध्व॒न्त्यनु॒नस्य॑ ॥ <eos>
+
+--- <SAM> Samples ---
+[1] <SAM> नीं द॒मायु॑ वृ॒षाळ॑ह्यं मृ॑धः । स नो॒ वस्य॑स॒ स नो॑ मर्यद् ॥ <eos>
+[2] <SAM> यस्य॑ ते तृ॒ स्रिषा॑त इन्द्र॒ प्र रि॑षसत॒ प्र क्ष॑सो नौ । वि॑क्त॒स्रि मति॒ न ते॒ त्स मिष॒ इन्द्र॑श्च॒ । अ॒मृजं न वृ॑धो॒ न दं न मृळीत आ ॥ <eos>
+[3] <SAM> यस्य॑ ते तृ॒स्रिडि॒रय॑स्त॒मन॑तथ । अ॒र्यो यस्य॑ ते॒ अद॑हते ॥ <eos>
+
+--- END OF REPORT ---

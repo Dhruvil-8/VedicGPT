@@ -1,0 +1,36 @@
+{
+  "raw_dir": "C:\\Users\\admin\\Downloads\\VedSastra\\SanskritGPT-Vedic\\data\\raw",
+  "counts": {
+    "Rigveda": {
+      "files": 10,
+      "items": 1027,
+      "verses": 10499,
+      "repaired_chunks": 0,
+      "dropped_segments": 58,
+      "metadata_fallback_segments": 60
+    },
+    "Yajurveda": {
+      "files": 2,
+      "items": 78,
+      "verses": 4030,
+      "repaired_chunks": 0,
+      "dropped_segments": 129,
+      "metadata_fallback_segments": 129
+    },
+    "AtharvaVeda": {
+      "files": 20,
+      "items": 736,
+      "verses": 6188,
+      "repaired_chunks": 0,
+      "dropped_segments": 38,
+      "metadata_fallback_segments": 39
+    }
+  },
+  "repaired_chunks": 0,
+  "dropped_segments": 225,
+  "duplicate_accented_lines": 702,
+  "final": {
+    "accented_lines": 20015,
+    "suspicious_lines": 107
+  }
+}
